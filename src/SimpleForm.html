@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/SimpleForm.css">
+    <title>Order form</title>
+</head>
+<body>
+    <form method="post" action="SimpleFormSubmit.html">
+        <h1>Order Form</h1>
+        <p>What would you like to buy?</p>
+        <label>
+            <select name="SanPham">
+                <option class="SPOption" value="a">aaa</option>
+                <option class="SPOption" value="b">bbb</option>
+                <option class="SPOption" value="c">ccc</option>
+                <option class="SPOption" value="d">ddd</option>
+                <option class="SPOption" value="e">eee</option>
+            </select>
+        </label>
+        <p>How many would you like to order?</p>
+        <label><input name="Amount" value="1 - 10$" type="radio"> 1 - 10$</label>
+        <label><input name="Amount" value="2 - 20$" type="radio"> 2 - 20$</label>
+        <label><input name="Amount" value="3 - 25$" type="radio"> 3 - 25$</label>
+        <p>Name</p>
+        <label>
+            <input name="FirstName" placeholder="First Name" type="text">
+            <input name="LastName" placeholder="Last Name" type="text">
+        </label>
+        <p>Email</p>
+        <label><input name="Email" placeholder="abc@gmail.com" type="Text"></label>
+        <p>Phone number</p>
+        <label>
+            <input class="PhoneNumberTextBox" name="FirstPartOfPN" placeholder="xxx" type="text">
+            -
+            <input class="PhoneNumberTextBox" name="SecondPartOfPN" placeholder="xxx" type="text">
+            -
+            <input class="PhoneNumberTextBox" name="FinalPartOfPN" placeholder="xxx" type="text">
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Done">
+    </form>
+</body>
+</html>

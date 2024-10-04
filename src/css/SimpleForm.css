@@ -1,0 +1,9 @@
+option:nth-child(odd) {
+    background: rgb(132, 163, 218);
+}
+.PhoneNumberTextBox {
+    width: 100px;
+}
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+}
